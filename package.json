@@ -1,0 +1,12 @@
+{
+  "name": "curd",
+  "version": "1.0.0",
+  "description": "Login System Using PHP and MYSQL",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
