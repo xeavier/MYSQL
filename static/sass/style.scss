@@ -1,0 +1,11 @@
+$bgColor: blue;
+$bgColor: green;
+
+body {
+	background: #1690A7;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
