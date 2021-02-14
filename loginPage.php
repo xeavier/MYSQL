@@ -7,6 +7,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/styles/style.css">
 	<link rel="stylesheet" type="text/css" href="/styles/bootstarp.css">
+	<script type="text/javascript" src="./js/login.js"></script>  
 </head>
 <body>
      <!--<form action="login.php" method="post">
@@ -30,7 +31,8 @@
 			  <h1>Login Form</h1>
 			</div>
 			<div class="panel-body">
-			  <form action="login.php" method="post" id="frm">
+				<!--<form action="login.php" method="post" id="frm">-->
+			  <form  id="frm">
 				<div class="form-group">
 				  <label for="firstName">User Name</label>
 				  <input
@@ -50,7 +52,8 @@
 					placeholder="Password"
 				  />
 				</div>
-				<input type="submit" id="submit" class="btn btn-primary" />
+				<input type="submit" id="submit" class="btn btn-primary"/>
+				<!--<input type="submit" id="submit" class="btn btn-primary" />-->
 			  </form>
 			</div>
 			<div class="panel-footer text-right">
@@ -60,7 +63,7 @@
 		</div>
 	  </div>
 </body>
-<script>
+<!--<script>
 	$(document).ready(function(){
 		$("#submit").click(function(){
 			//alert('chjkcndcnjc')
@@ -74,5 +77,5 @@
 			})
 		})
 	})
-</script>
+</script>-->
 </html>

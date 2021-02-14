@@ -3,7 +3,10 @@
   <head>
     <title>Registration Page</title>
     <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/bootstarp.css" />
+    <script type="text/javascript" src="./js/register.js"></script>  
   </head>
   <body>
     <div class="container">
@@ -13,7 +16,8 @@
             <h1>Registration Form</h1>
           </div>
           <div class="panel-body">
-            <form action="signup.php" method="post">
+            <!--<form action="signup.php" method="post">-->
+            <form  id="frm">
               <div class="form-group">
                 <label for="firstName">First Name</label>
                 <input
@@ -88,7 +92,7 @@
                   name="number"
                 />
               </div>
-              <input type="submit" class="btn btn-primary" />
+              <input type="submit" id= "submit" class="btn btn-primary" />
             </form>
           </div>
           <div class="panel-footer text-right">
