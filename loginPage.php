@@ -58,7 +58,7 @@
 			  </form>
 			</div>
 			<div class="panel-footer text-right">
-
+               <a href="RegistrationPage.php">Create account</a>
 			</div>
 		  </div>
 		</div>
