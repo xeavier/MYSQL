@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +6,9 @@
 	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/styles/style.css">
-	<link rel="stylesheet" type="text/css" href="/styles/bootstarp.css">
-	<script type="text/javascript" src="./js/login.js"></script>  
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<!--<link rel="stylesheet" type="text/css" href="/styles/bootstarp.css">-->
+	<script type="text/javascript" src="./js/login.js"></script> 
 </head>
 <body>
      <!--<form action="login.php" method="post">
@@ -31,16 +32,16 @@
 			  <h1>Login Form</h1>
 			</div>
 			<div class="panel-body">
-				<!--<form action="login.php" method="post" id="frm">-->
-			  <form  id="frm">
+				<form action="login.php" method="post" id="frm">
+			<!-- <form  id="frm">--->
 				<div class="form-group">
-				  <label for="firstName">User Name</label>
+				  <label for="email">E mail</label>
 				  <input
 					type="text"
 					class="form-control"
-					id="firstName"
-					name="uname"
-					placeholder="User Name">
+					id="email"
+					name="email"
+					placeholder="email">
 				</div>
 				<div class="form-group">
 				  <label for="password">Password</label>
@@ -66,13 +67,17 @@
 <!--<script>
 	$(document).ready(function(){
 		$("#submit").click(function(){
-			//alert('chjkcndcnjc')
+			alert('chjkcndcnjc')
 			$ajax({
-				url:"login.php",
-				type: "post",
-				data:$("#frm").serialize(),
+				url:"php/login.php",
+				type: "POST",
+				data: {
+					email: email,
+					password: password				
+				},,
 				success:function(d){
-					 alert(d)
+					alert('chjkcndcnjc')
+					 echo "hello"
 				}
 			})
 		})

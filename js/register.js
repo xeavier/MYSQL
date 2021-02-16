@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$("#submit").click(function(){
 		//alert('chjkcndcnjc')
-		alert("register")
+		alert("reg")
 		$ajax({
-			url:"login.php",
+			url:"signup.php",
 			type: "post",
 			data:$("#frm").serialize(),
 			success:function(d){

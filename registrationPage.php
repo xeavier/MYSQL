@@ -16,8 +16,8 @@
             <h1>Registration Form</h1>
           </div>
           <div class="panel-body">
-            <!--<form action="signup.php" method="post">-->
-            <form  id="frm">
+            <form action="signup.php" method="post">
+            <!--<form  id="frm">-->
               <div class="form-group">
                 <label for="firstName">First Name</label>
                 <input
