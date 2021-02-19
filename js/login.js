@@ -1,6 +1,6 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$("#submit").click(function(){
-		alert('chjkcndcnjc')
+		alert('hello')
 		$ajax({
 			url:"login.php",
 			type: "POST",
@@ -9,14 +9,14 @@ $(document).ready(function(){
 				password: password				
 			},
 			success:function(d){
-				alert('chjkcndcnjc')
+				alert('hello')
 			}
 		})
 	})
-})
+})*/
 
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$("#submit").on('click', function() {
 		var email = $('#email').val();
 		var password = $('#password').val();
@@ -46,4 +46,4 @@ $(document).ready(function() {
 			alert('Please fill all the field !');
 		}
 	});
-});
+});*/
