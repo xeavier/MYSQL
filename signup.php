@@ -23,8 +23,12 @@ include "db_conn.php";
 		$conn->close();
 	}*/
 	$stmt = $conn->prepare("insert into users(firstName, lastName, gender, email, password, number) values(?, ?, ?, ?, ?, ?)");
-	$stmt->bind_param("sssssi", $firstName, $lastName, $gender, $email, $password, $number);
-	$execval = $stmt->execute();
+	$stmt->bind_param("s", $firstName, $lastName, $gender, $email, $password, $number);
+	$execval = $stmt->execute($firstName);
+	$stmt->bind_result();
+	while($stmt->fetch()){
+		echo $firstName;
+	}
 	echo $execval;
 	echo "Registration successfully...";
 	header("Location: homePage.php");

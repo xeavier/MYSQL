@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("#submit").click(function(){
 		//alert('chjkcndcnjc')
-		alert("reg")
+		alert("You want to register")
 		$ajax({
 			url:"signup.php",
 			type: "post",

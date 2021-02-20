@@ -32,8 +32,8 @@
 			  <h1>Login Form</h1>
 			</div>
 			<div class="panel-body">
-				<!--<form action="login.php" method="post" id="frm">-->
-			<form  id="frm">
+		<form action="login.php" method="post" id="frm">
+			<!--<form  id="frm">-->
 				<div class="form-group">
 				  <label for="email">E mail</label>
 				  <input
