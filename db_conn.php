@@ -1,10 +1,10 @@
 <?php
 
-$sname= 'sql5.freesqldatabase.com';
-$unmae= "sql5393989";
-$password = "n1DiTLC8nZ";
+$sname= 'us-cdbr-east-03.cleardb.com';
+$unmae= "b23427975fc010";
+$password = "0636ac8d";
 
-$db_name = "sql5393989";
+$db_name = "users";
 
 /*$sname= "localhost";
 $unmae= "root";
